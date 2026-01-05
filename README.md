@@ -1,16 +1,71 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my assignment project. I made a simple employee management dashboard using React.
 
-Currently, two official plugins are available:
+## About This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I created this project to learn React and practice making a web application. It has a login page and a dashboard where you can manage employees.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Login page with email and password
+- Dashboard to see all employees
+- Add new employee
+- Edit employee details
+- Delete employee
+- Search employees by name
+- Filter by gender and status
+- Toggle active/inactive status
+- Print employee details
+- Data is saved in browser localStorage
 
-## Expanding the ESLint configuration
+## Technologies I Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- React Router (for navigation)
+- Tailwind CSS (for styling)
+- Vite (for running the project)
+- localStorage (for storing data)
+
+## How to Run
+
+1. First install the packages:
+
+```
+npm install
+```
+
+2. Then run the project:
+
+```
+npm run dev
+```
+
+3. Open browser and go to http://localhost:5173
+
+## How to Use
+
+1. Open the app and you will see login page
+2. Enter any email and password to login
+3. After login you will go to dashboard
+4. Click "Add Employee" button to add new employee
+5. You can search, filter, edit, delete employees
+6. Click logout button to logout
+
+## Screenshots
+
+Login Page - Simple login form
+Dashboard - Shows employee list with cards
+
+## What I Learned
+
+- How to use React components
+- How to use useState and useEffect hooks
+- How to do routing with react-router
+- How to style with Tailwind CSS
+- How to store data in localStorage
+- How to make forms and handle form submission
+
+---
+
+Thank you for checking my project!
