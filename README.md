@@ -52,19 +52,6 @@ npm run dev
 5. You can search, filter, edit, delete employees
 6. Click logout button to logout
 
-## Screenshots
-
-Login Page - Simple login form
-Dashboard - Shows employee list with cards
-
-## What I Learned
-
-- How to use React components
-- How to use useState and useEffect hooks
-- How to do routing with react-router
-- How to style with Tailwind CSS
-- How to store data in localStorage
-- How to make forms and handle form submission
 
 ---
 
